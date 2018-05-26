@@ -82,12 +82,12 @@ a {
 	-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #e44c65;
+	color: #DC7633;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #e44c65 !important;
+	color: #DC7633 !important;
 	border-bottom-color: transparent;
 }
 
@@ -450,7 +450,7 @@ footer.major {
 }
 
 #header nav ul li.active > a, #header nav ul li.active > span {
-	color: #e44c65;
+	color: #DC7633;
 }
 
 #header nav ul li > ul {
