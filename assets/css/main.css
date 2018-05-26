@@ -616,6 +616,11 @@ body.is-touch #banner {
 
 }
 
+#img-logo{
+	width: 100px;
+	padding-left: 25px;
+}
+
 #download-button{
 	width: 50%;
 	display: block;
