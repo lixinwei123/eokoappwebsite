@@ -3,7 +3,7 @@
 }
 
     .wrapper.style2 {
-        background: #e44c65;
+        background: #DC7633;
     }
 
         .wrapper.style2 input[type="text"]:focus,
@@ -38,7 +38,7 @@
         .wrapper.style2 input[type="button"].special,
         .wrapper.style2 .button.special {
             background-color: #ffffff;
-            color: #e44c65 !important;
+            color: #DC7633 !important;
         }
 
             .wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
