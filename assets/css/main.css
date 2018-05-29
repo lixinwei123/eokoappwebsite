@@ -295,6 +295,7 @@ section.special, article.special {
 	text-align: center;
 }
 
+
 header h2{
 	text-align: center;
 }
@@ -640,4 +641,14 @@ body.is-touch #banner {
 
 #center-div p{
 	text-align: center;
+}
+
+#phone-display{
+	width: 600px;
+	margin-top: -250px;
+	margin-left: -100px;
+}
+
+#two{
+	height: 1000px;
 }
