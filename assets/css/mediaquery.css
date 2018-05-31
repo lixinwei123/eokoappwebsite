@@ -60,6 +60,12 @@
 				padding: 4.5em 0;
 			}
 
+			#phone-display{
+				    width: 31rem;
+				    margin: -6rem;
+				    margin-top: -13rem;
+			}
+
 	}
 
 /* Medium */
@@ -236,7 +242,7 @@
 
 			#banner {
 				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
-				min-height: calc(100vh - 44px);
+				min-height: calc(100vh);
 			}
 
 				#banner:before {
@@ -272,6 +278,7 @@
 			}
 
 			#titleBar {
+				display: none;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -292,6 +299,7 @@
 			}
 
 				#titleBar .title {
+					display: none;
 					color: #ffffff;
 					display: block;
 					font-weight: 300;
@@ -301,11 +309,13 @@
 				}
 
 					#titleBar .title a {
+						display: none;
 						color: inherit;
 						border: 0;
 					}
 
 				#titleBar .toggle {
+					display: none;
 					text-decoration: none;
 					height: 60px;
 					left: 0;
@@ -317,6 +327,7 @@
 				}
 
 					#titleBar .toggle:before {
+						display: none;
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						font-family: FontAwesome;
@@ -326,7 +337,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #DC7633;
+						display: none;
+						background: #F57C00;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
@@ -421,6 +433,7 @@
 			}
 
 			body.navPanel-visible #titleBar {
+				display: none;
 				-moz-transform: translateX(275px);
 				-webkit-transform: translateX(275px);
 				-ms-transform: translateX(275px);
@@ -533,5 +546,15 @@
 						margin: 0;
 						padding: 0;
 					}
+
+
+					#phone-display{
+					width: 31rem;
+					margin: -13rem;
+				}
+
+				.fujust{
+					margin: 0 5.5rem;
+				}
 
 	}

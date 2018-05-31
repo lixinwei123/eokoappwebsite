@@ -82,12 +82,12 @@ a {
 	-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #DC7633;
+	color: #F57C00;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #DC7633 !important;
+	color: #F57C00 !important;
 	border-bottom-color: transparent;
 }
 
@@ -335,7 +335,7 @@ header.major {
 }
 
 header.major:after {
-	background: #DC7633;
+	background: #F57C00;
 	content: '';
 	display: inline-block;
 	height: 0.2em;
@@ -451,7 +451,7 @@ footer.major {
 }
 
 #header nav ul li.active > a, #header nav ul li.active > span {
-	color: #DC7633;
+	color: #F57C00;
 }
 
 #header nav ul li > ul {
@@ -459,7 +459,7 @@ footer.major {
 }
 
 body.landing #page-wrapper {
-	padding-top: 0;
+	padding-top: 0px !important;
 }
 
 body.landing #header {
@@ -474,7 +474,7 @@ body.landing #header {
 	background-attachment: fixed;
 	background-color: #272833;
 	/* background-image: url("../../images/banner.jpeg"); */
-	background-image: url("../ezgif.com-gif-maker.gif");
+	background-image: url("../eokobackgroundgif.gif");
 	background-position: center center;
 	background-size: cover;
 	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -645,32 +645,73 @@ body.is-touch #banner {
 }
 
 #phone-display{
-	width: 600px;
-	margin-top: -250px;
-	margin-left: -100px;
-}
+				    width: 31rem;
+				    margin: -2rem;
+				    margin-top: -13rem;
+			}
 
-#two{
+/*#two{
 	height: 1000px;
-}
-
+}*/
 
 @font-face {
   font-family: 'suggestionbox';
-  src:  url('sugggestionBox/suggestionbox.eot?4gygzj');
-  src:  url('sugggestionBox/suggestionbox.eot?4gygzj#iefix') format('embedded-opentype'),
-    url('sugggestionBox/suggestionbox.ttf?4gygzj') format('truetype'),
-    url('sugggestionBox/suggestionbox.woff?4gygzj') format('woff'),
-    url('sugggestionBox/suggestionbox.svg?4gygzj#suggestionbox') format('svg');
+  src:  url('fonts/suggestionbox.eot?4gygzj');
+  src:  url('fonts/suggestionbox.eot?4gygzj#iefix') format('embedded-opentype'),
+    url('fonts/suggestionbox.ttf?4gygzj') format('truetype'),
+    url('fonts/suggestionbox.woff?4gygzj') format('woff'),
+    url('fonts/suggestionbox.svg?4gygzj#suggestionbox') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-.eoko-suggestion-box:before,
-.ion-ios-eoko-suggestion-box:before ,
-.ion-ios-eoko-suggestion-box-outline:before ,
-.ion-md-eoko-suggestion-box:before ,
-.ion-md-eoko-suggestion-box-outline:before, {
-  content: "\1f5f3";
+
+[class^="eoko-"], [class*=" eoko-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'suggestionbox' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eoko-suggestion-box:before {
+  content: "\1f5f3" !important;
   color: white;
-  font-size: 3rem !important;
+  font-size: 2.25em;
+}
+
+.feedbackCircle{
+	background: #272833;
+    border-radius: 100%;
+    cursor: default;
+    display: inline-block;
+    height: 6em;
+    line-height: 6em;
+    margin: 0 0 2em 0;
+    text-align: center;
+    width: 6em;
+}
+
+.p1style{
+	color: white;
+    font-weight: bold;
+    background-color: #3f69a8;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.p2style {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgba(245, 124, 0, 0.61);
+    padding: 2vh 3vw;
+    font-size: 1.25em;
+    border-radius: 12px;
+    margin-top: 25px !important;
 }

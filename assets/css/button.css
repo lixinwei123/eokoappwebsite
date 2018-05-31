@@ -33,8 +33,8 @@ input[type="button"],
     input[type="button"]:active,
     .button:hover,
     .button:active {
-        box-shadow: inset 0 0 0 1px #DC7633;
-        color: #DC7633 !important;
+        box-shadow: inset 0 0 0 1px #F57C00;
+        color: #F57C00 !important;
     }
 
     input[type="submit"]:active,
@@ -78,23 +78,24 @@ input[type="button"],
     input[type="reset"].special,
     input[type="button"].special,
     .button.special {
-        background-color: #DC7633;
+        background-color: rgba(158, 158, 158, 0.62);
         box-shadow: none;
         color: #ffffff !important;
+        border-radius: 25px;
     }
 
         input[type="submit"].special:hover,
         input[type="reset"].special:hover,
         input[type="button"].special:hover,
         .button.special:hover {
-            background-color: #DC7633;
+            background-color: #F57C00;
         }
 
         input[type="submit"].special:active,
         input[type="reset"].special:active,
         input[type="button"].special:active,
         .button.special:active {
-            background-color: #DC7633;
+            background-color: #F57C00;
         }
 
     input[type="submit"].disabled, input[type="submit"]:disabled,
