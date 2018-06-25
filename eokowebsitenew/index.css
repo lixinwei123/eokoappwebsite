@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+.rounded-photo{
+	opacity: 0.4;
+	border: solid white;
+	border-radius: 10rem;
+}
+.up-and-down{
+	position: relative;
+	top: -14rem;
+}
+.up-and-down-1{
+	margin-bottom: 1rem;
+	display: block;
+}
+
+.arrow-down-icon{
+	color:#4789f3;
+	font-size: 2rem;
+}
+
+.arrow-up-icon{
+	color:#F57C00; 
+	font-size: 2rem;
+}
+
+.up-down-title{
+	margin-bottom: 3rem;
+}
+
+.animated-photo{
+	border-radius: 50% !important;
+	width: 13rem !important;
+	height: 13rem !important;
+}
+
+.bold-orange{
+	color:#F57C00;
+	font-weight: bold;
+}
+
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+.features2-j{
+	overflow: scroll;
+	height: 200px;
+	width: 100px;
+}
