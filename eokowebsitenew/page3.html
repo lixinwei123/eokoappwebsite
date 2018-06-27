@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
+  <link rel="stylesheet" href="careers.css"> 
   
   
 </head>
@@ -30,14 +30,84 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 align-center">
-                <h2 class="pb-3 mbr-fonts-style display-2">Interns of êoko</h2>
+                <h2 class="pb-3 mbr-fonts-style display-2">Here to empower you</h2>
                 
             </div>
         </div>
     </div>
+<!--     <div class="container">
+  <h1>Interns</h1>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="carousel slide multi-item-carousel" id="theCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-4">                <div class="panel-item p-3">
+                    <div class="card-block">
+                        <div class="testimonial-photo">
+                            <img src="assets/images/minh-240x365.jpg" alt="" title="">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                           Minh Lê</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">Intern Developer</div>
+                        <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7">
+                               Joining Eoko has open my mind towards the startup culture - from experimenting with cool technologies to late night hanging out with the confounders, I  have truly never felt more belong. The experience I gain as Eoko pivoted me towards a better step of my career and though I am now interning at more established companies, Eoko will always hold a special place in my heart </small>
+                    </div>
+                </div></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+          </div>
+          <!-- add  more items here -->
+          <!-- Example item start:  -->
 
-    <div class="container pt-3 mt-2">
-        <div class="media-container-row">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+  // Instantiate the Bootstrap carousel
+$('.multi-item-carousel').carousel({
+  interval: false
+});
+
+// for every slide in carousel, copy the next slide's item in the slide.
+// Do the same for the next, next item.
+$('.multi-item-carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
+});
+</script>
+
+    <div class="container pt-3 mt-2 carousel slide multi-item-carousel" id="theCarousel">
+        <div class="media-container-row carousel-inner">
+          <div class = "item active">
             <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div class="panel-item p-3">
                     <div class="card-block">
@@ -64,7 +134,7 @@
                         <p class="mbr-text mbr-fonts-style display-7">Tri Lê</p>
                     </div>
                     <div class="card-footer">
-                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">Co Founder &amp; CTO of Fashionbody</div>
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">Co Founder &amp; CTO of Fashionbuddy</div>
                         <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7"><br>eoko helped me find and execute on opportunities that I never would have found alone as a computer science student. They're truly all about the community and people.<br></small>
                     </div>
                 </div>
@@ -85,8 +155,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+          </div>
+              <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4 item">
                 <div class="panel-item p-3">
                     <div class="card-block">
                         <div class="testimonial-photo">
@@ -100,11 +170,9 @@
                     </div>
                 </div>
             </div>
-
-            
-
-            
-        </div>
+          </div>
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left" style = "color: black"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right" style = "color: black"></i></a>
     </div>   
 </section>
 
@@ -123,7 +191,7 @@
                     
                     
                     
-                <li class="foot-menu-item mbr-fonts-style display-7"><a href="index.html">Home</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="page2.html">About us</a></li><li class="foot-menu-item mbr-fonts-style display-7">Presskit</li><li class="foot-menu-item mbr-fonts-style display-7"><a href="page3.html">Careers</a></li></ul>
+                <li class="foot-menu-item mbr-fonts-style display-7"><a href="index.html">Home</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="page2.html">About us</a></li><!-- <li class="foot-menu-item mbr-fonts-style display-7">Presskit</li> --><li class="foot-menu-item mbr-fonts-style display-7"><a href="page3.html">Careers</a></li></ul>
             </div>
             <div class="row social-row">
                 <div class="social-list align-right pb-2">
