@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="assets/aos-master/dist/aos.css" />
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+
   
 </head>
 <body>
@@ -31,7 +34,7 @@
             <h3 class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-1">
                 <br><br><br><br><span style="font-style: normal;">Join the experience</span></h3>
             <p class="mbr-text align-left pb-3 mbr-fonts-style display-5">
-                Build an meaningful community</p>
+                Build a meaningful community</p>
             <div class="mbr-section-btn align-left"><a class="btn btn-md btn-primary display-4" href="https://play.google.com/store/apps/details?id=com.dreality.eoko"><span class="mbri-android mbr-iconfont mbr-iconfont-btn"></span>Android</a>
                 <a class="btn btn-md btn-black-outline display-4" href="https://mobirise.com"><span class="mbri-apple mbr-iconfont mbr-iconfont-btn"></span>Apple &nbsp;</a></div>
         </div>
@@ -52,9 +55,8 @@
         <div class="image-block" style="width: 100%;">
             <img src="assets/images/eoko2-1-2530x1687.jpg" alt="Mobirise" title="">
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-                <div class="container pb-5 mbr-white align-center mbr-fonts-style display-5" style = "position: relative;
-    top: -35rem;">
-                    Build a true community centered around your company with authentic conversations meaningful relationships, and fun experiences- all driven by your employees</div>
+                <div class="container pb-5 mbr-white align-center mbr-fonts-style display-5" style = "position: relative; top: -6em; text-align: center;">
+                    Build a true community centered around your company with authentic conversations, meaningful relationships, and fun experiences. All driven by your employees</div>
             </figcaption>
         </div>
     </figure>
@@ -93,7 +95,7 @@
                         <img class = "rounded-photo" src="assets/images/eoko3-676x667.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7 up-and-down">
+                        <h4 class="card-title pb-3 mbr-fonts-style display-7 up-and-down black-text-white-shadow">
                             <span class = "up-and-down-1">Solve critical issues 
                                 <span class = "arrow-up-icon">&#8593;</span>
                             </span>
@@ -111,8 +113,8 @@
                         <h2 class = "up-down-title">Communication tools</h2>
                         <img src="assets/images/eoko4-676x667.png" alt="Mobirise" title="" class = "rounded-photo">
                     </div>
-                    <div class="card-box ">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7 up-and-down">
+                    <div class="card-box black-text-white-shadow">
+                        <h4 class="card-title pb-3 mbr-fonts-style display-7 up-and-down" >
                             <span class = "up-and-down-1">Help to organize the team 
                                 <span class = "arrow-up-icon">&#8593;</span>
                             </span>  
@@ -130,7 +132,7 @@
                          <h2 class = "up-down-title">Events &amp; retreats</h2>
                         <img src="assets/images/eoko5-676x667.png" alt="Mobirise" title="" class = "rounded-photo">
                     </div>
-                    <div class="card-box">
+                    <div class="card-box black-text-white-shadow">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7 up-and-down">
                             <span class = "up-and-down-1">Solve critical issues 
                                 <span class = "arrow-up-icon">&#8593;</span></span>  
@@ -191,7 +193,7 @@
                                 <div class="align-self-center card-img pb-3">
                                     <span class="mbr-iconfont mbri-smile-face"></span>
                                 </div>     
-                                <div class="media-body">
+                                <div class="media-body" id="target">
                                     <h4 class="card-title mbr-fonts-style display-5" style = "color:#F57C00"> 
                                         The last app!</h4>
                                 </div>
@@ -212,7 +214,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="card p-3 col-12 col-md-6 col-lg-4" id = "column-1">
-                <div class="card-wrapper" style = 'position:fixed;'>
+                <div class="card-wrapper">
                     <!-- <div class="card-img">
                         <img src="assets/images/01.jpeg" alt="Mobirise" class = "animated-photo">
                     </div>
@@ -229,15 +231,9 @@
 
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
-                    <div class="card-img">
-                        <img src="assets/images/02.jpg" alt="Mobirise">
-                    </div>
-                    <div class="card-box ">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">
-                            Mobile Friendly
-                        </h4>
-                        <p class="mbr-text mbr-fonts-style display-7"></p>
-                    </div>
+                    <video id="video-screen-recording"
+                        style="display: none"
+                        src="videos/screen-recording.mp4"></video>
                 </div>
             </div>
 
@@ -246,10 +242,7 @@
 <!--                     <div class="card-img">
                         <img src="assets/images/03.jpg" alt="Mobirise">
                     </div> -->
-                    <div class="card-box">
-<!--                         <h4 class="card-title pb-3 mbr-fonts-style display-7">
-                            Unique Styles
-                        </h4> -->
+                 
                         <p class="mbr-text mbr-fonts-style display-7">
                             Show your employees you care by providing them a community that's all about them. <span style = "color:#F57C00"> Empower them to:</span> 
                             <br> <br> 
@@ -258,7 +251,6 @@
                             Better <span class = "bold-orange">understand</span> the company <span class = "bold-orange">Feel</span> part of the culture 
                             <br><br> 
                             <span class = "bold-orange">Empower</span> them to provide feedback without fear</p> 
-                    </div>
                 </div>
             </div>    
         </div>
@@ -415,7 +407,6 @@
 </section>
 
 
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -423,6 +414,7 @@
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
+  <script src="js/handle-scrolling.js"></script>
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
