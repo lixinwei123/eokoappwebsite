@@ -6,7 +6,7 @@ const target = $("#begin-video-animation")
 var isMobile = window.matchMedia("only screen and (max-width: 760px)");
     
 
-console.log('isMobile', isMobile.matches)
+// console.log('isMobile', isMobile.matches)
 
 if (isMobile.matches) {
     vidMobile.style.display = 'block'
@@ -14,7 +14,7 @@ if (isMobile.matches) {
 else {
     document.addEventListener("scroll", function(event) {
 
-        console.log("scrolltop", $(window).scrollTop())
+        // console.log("scrolltop", $(window).scrollTop())
         const scrollTop = $(window).scrollTop()
         const offset = target.offset().top
 
